@@ -1,7 +1,6 @@
 package com.example.monyeq.exception;
 
-
-public class InputDataException extends RuntimeException{
+public class InputDataException extends RuntimeException {
     public InputDataException() {
     }
 
@@ -17,7 +16,8 @@ public class InputDataException extends RuntimeException{
         super(cause);
     }
 
-    public InputDataException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+    public InputDataException(String message, Throwable cause, boolean enableSuppression,
+                              boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }
